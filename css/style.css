@@ -51,7 +51,7 @@ h3{
    padding-bottom: 10px;
 }
 .logo{
-   max-width: 20%;
+   max-width: 40%;
 }
 .head{
    text-align: center;
@@ -527,3 +527,123 @@ footer a{
 .footer_1 h2{
    padding: 30px 0 10px 0;
 }
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 675px) {
+  .head{
+    flex-direction: column-reverse;
+
+  }
+  h1{
+    max-width: 600px;
+  }
+  .telephone{
+    padding: 10px 0 20px 0;
+  }
+}
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+/* Retina iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+}
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+/* Retina iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+}
+
+
+@media only screen and (max-device-width : 400px)  {
+  .btn{
+    font-size: 12px;
+  }
+  .price_wrapper{
+   font-size: 10px;
+  }
+.more_wrapper{
+   font-size: 10px;
+  }
+  .why_choose_us_flex_item{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .circle{
+    margin-bottom: 15px;
+  }
+  .banner h2{
+   padding-top: 50px;
+   font-size: 25px;
+  }
+  .btn_popup{
+   padding-bottom: 50px;
+  }
+  ul{
+   font-size: 20px;
+  }
+}
+
+price_wrapper
